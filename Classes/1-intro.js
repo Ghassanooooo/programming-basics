@@ -54,7 +54,15 @@ console.log(personInit_2.greeting()) // Hallo Max
 
 console.log(new Person('Pilar', 'pilar@gmail.com')) // Person { name: 'Pilar', email: 'pilar@gmail.com' }
 
+// We use a class to INSTANTIATE an INSTANCE of the class.
+// Or, "create an object of the type of the class"
 
+// The constructor() method is called automatically by the "new" operator, which lets us initialize the new object.
+// The constructor() is a "special" method which JS automatically calls when we create a new INSTANCE of the class.
+// The constructor() can accept arguments like a normal method, and use those arguments to initialize objects.
+
+// When new Person("Pilar", 'pilar@gmail.com') is called...
+//  A new object is created;
 
 
 
